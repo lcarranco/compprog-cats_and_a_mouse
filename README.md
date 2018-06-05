@@ -71,6 +71,10 @@ Mouse C
 * Because the mouse escapes, print `Mouse C` on a new line
 
 ## Solving
-
+* Used vector for data structure
 
 ### Algorithm
+1. Insert locations of Cat A, Cat B, and Mouse C as well as insert markers after each query
+2. Compute the absolute value of the subtraction of Cat A and Mouse C
+3. Compute the absolute value of the subtraction of Cat B and Mouse C
+4. If the computation from steps 2 & 3 are equal then print `Mouse C`, else print either `Mouse A` or `Mouse B`, corresponding to the minimum absolute value afrom steps 2 & 3
