@@ -33,8 +33,8 @@
 * Each of the **q** subsequent lines contains three space-separated integers describing the respective values of **x** (cat **A**'s location), **y** (cat **B**'s location), and **z** (mouse **C**'s location).
 
 ## Constraints
-* **1 <= q <= 100**
-* **1 <= x, y, z <= 100**
+* **1 &le; q &le; 100**
+* **1 &le; x, y, z &le; 100**
 
 ## Output Format
 For each query, return `Cat A` if cat **A** catches the mouse first, `Cat B` if cat **B** catches the mouse first, or `Mouse C` if the mouse escapes.
